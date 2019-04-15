@@ -1,4 +1,4 @@
-FROM postgres:11
+FROM postgres:10
 MAINTAINER Alexander Kukushkin <alexander.kukushkin@zalando.de>
 
 RUN export DEBIAN_FRONTEND=noninteractive \
